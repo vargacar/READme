@@ -1,5 +1,5 @@
-# homework readme
+# readme generator
 
 ## description
 
-present a readme file from the terminal
+to generate a readme file from the terminal
