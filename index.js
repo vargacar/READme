@@ -7,29 +7,29 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
     {
         type: "input",
-        name: "title",
-        message: "Name your project",
+        name: "Carolina",
+        message: "Project 3",
     },
     {
         type: "input",
-        name: "description",
-        message: "Please describe the purpose of your project",
+        name: "website template",
+        message: "Creation of a template for offering services",
     },
     {
         type: "list",
         name: "license",
-        message: "Please select a license applicable to this project",
-        choices: ["MIT", "BSD2", "BSD3",  "None"],
+        message: "License applicable for this project",
+        choices: ["MIT"],
     },
     {
         type: "input",
-        name: "require",
-        message: "List any project dependencies here.",
+        name: "dependencies",
+        message: "Apollo, Chakra",
     },
     {
         type: "input",
-        name: "description",
-        message: "Please type your name",
+        name: "mncncncncncncncn",
+        message: "Carol V",
     }
         
 ];
@@ -49,3 +49,7 @@ function init() {
 
 // Function call to initialize app
 init();
+
+
+
+// to open in the teminal, type node index js and start answering the question
